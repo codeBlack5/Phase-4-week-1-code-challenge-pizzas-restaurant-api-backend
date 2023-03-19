@@ -29,6 +29,8 @@ This challenge has :
     -A `RestaurantPizza` belongs to a `Restaurant` and belongs to a `Pizza` by running:
           `rails g resource RestaurantPizza  price restaurants:belongs_to pizzas:belongs_to --no-test-framework`
 
-* Run the migrations to create the schema for our tables
+* Run the migrations to create the schema for our tables and seed the sample data to our tables
  
-    Run `rails db:migrate`
+    Run `rails db:migrate db:seed`
+
+
