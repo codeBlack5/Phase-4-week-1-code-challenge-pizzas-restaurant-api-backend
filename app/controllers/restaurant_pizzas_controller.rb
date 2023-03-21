@@ -8,7 +8,7 @@ class RestaurantPizzasController < ApplicationController
 
     def show
         restaurantpizza = find_restaurant_pizza
-        render json:restaurant_pizza
+        render json:restaurantpizza
     end
 
     def create
