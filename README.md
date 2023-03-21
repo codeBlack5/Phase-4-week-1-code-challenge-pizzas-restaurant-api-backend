@@ -70,7 +70,14 @@ Return JSON data in the format below:
 ]`
 
 
+
+
+
 [Screencast from 21-03-2023  9:39:59 WB.webm](https://user-images.githubusercontent.com/117839936/226717516-3982f6fd-5145-48e1-8c5a-93e285357011.webm)
+
+
+
+
 
 
 
@@ -95,7 +102,18 @@ If the Restaurant exists, return JSON data in the format below:
   ]
 }`
 
+
+
+
+
+
 [Screencast from 21-03-2023 10:25:33 WB.webm](https://user-images.githubusercontent.com/117839936/226720059-8eb81d6d-2da1-40f3-89ab-10d78648fc37.webm)
+
+
+
+
+
+
 
 
 If the Restaurant does not exist, return the following JSON data, along with the appropriate HTTP status code:
@@ -104,7 +122,16 @@ If the Restaurant does not exist, return the following JSON data, along with the
   "error": "Restaurant not found"
 }`
 
+
+
+
+
+
 [Screencast from 21-03-2023 10:29:30 WB.webm](https://user-images.githubusercontent.com/117839936/226721747-243e3c1f-19a1-479e-ae08-2ac10601f174.webm)
+
+
+
+
 
 
 `DELETE /restaurants/:id`
@@ -118,7 +145,18 @@ If the `Restaurant` does not exist, return the following JSON data, along with t
   "error": "Restaurant not found"
 }`
 
+
+
+
+
+
+
 [Screencast from 21-03-2023 10:44:12 WB.webm](https://user-images.githubusercontent.com/117839936/226723724-3c561017-5ae5-48c0-ae14-85890ed627ff.webm)
+
+
+
+
+
 
 
 
@@ -138,7 +176,20 @@ Return JSON data in the format below:
   }
 ]`
 
+
+
+
+
+
+
+
 [Screencast from 21-03-2023 10:45:57 WB.webm](https://user-images.githubusercontent.com/117839936/226724288-a4c7d4de-4c9f-423b-9b39-6420c967ce2b.webm)
+
+
+
+
+
+
 
 
 `POST /restaurant_pizzas`
@@ -150,7 +201,20 @@ This route should create a new `RestaurantPizza` that is associated with an exis
   "restaurant_id": 3
 }`
 
+
+
+
+
+
+
 [Screencast from 21-03-2023 10:48:59 WB.webm](https://user-images.githubusercontent.com/117839936/226724881-b5e8405b-12f2-4af2-9e7c-afc727b010c9.webm)
+
+
+
+
+
+
+
 
 
 If the `RestaurantPizza` is created successfully, send back a response with the data related to the Pizza:
@@ -160,7 +224,24 @@ If the `RestaurantPizza` is created successfully, send back a response with the 
   "name": "Cheese",
   "ingredients": "Dough, Tomato Sauce, Cheese"
 }`
+
+
+
+
+
+
+
 [Screencast from 21-03-2023 10:52:18 WB.webm](https://user-images.githubusercontent.com/117839936/226726397-2183faa8-3145-465d-94dd-7eb4bd2705d5.webm)
+
+
+
+
+
+
+
+
+
+
 
 
 If the `RestaurantPizza` is not created successfully, return the following JSON data, along with the appropriate HTTP status code:
@@ -168,6 +249,12 @@ If the `RestaurantPizza` is not created successfully, return the following JSON 
 `{
   "errors": ["validation errors"]
 }`
+
+
+
+
+
+
 
 [Screencast from 21-03-2023 11:03:38 WB.webm](https://user-images.githubusercontent.com/117839936/226728148-731013db-f028-421b-bdbb-d7130fa3afcd.webm)
 
